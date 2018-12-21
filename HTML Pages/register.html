@@ -1,0 +1,35 @@
+<doctype html!>
+<html>
+<head>
+<title>Register </title>
+<link rel="stylesheet" href="styles.css" />
+<script type = "text/javascript" >
+		function display() {
+	document.getElementById("message").innerHTML = "We have sent an email with a confirmation link to your registered email address. Please verify your email to login.";
+		}
+		</script>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="login.html">Login</a>
+    <a href="register.html">Register</a>
+  </div>
+  <div class="main">
+  <form id="registration" >
+  <h2>Register </h2>
+  <p5>Email address: </p5></br>
+  <input type="text" Email address="" id="ip2"> </br> </br>
+  <p6>Password: </p6></br>
+  <input type="password"  id="ip2"> </br> </br>
+  <p6>Re-Enter Password: </p6></br>
+  <input type="password"  id="ip2" > </br> </br>
+
+  <div id="message"> <p> </div>
+</form>
+
+  <button type="submit" id="ip1" onclick="display()">Register</button>
+  <a href="login.html">Login</a>
+
+</div>
+</body>
+</html>

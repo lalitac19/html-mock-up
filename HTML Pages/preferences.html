@@ -1,0 +1,37 @@
+<doctype html!>
+<html>
+<head>
+<title>Preferences</title>
+<link rel="stylesheet" href="magazine.css" />
+<script type = "text/javascript" >
+		function saved() {
+		window.alert('Preferences successfully saved');
+		}
+		</script>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="homepage.html">Home</a>
+    <a href="preferences.html">Preferences</a>
+  </div>
+  <h1 align="center">Preferences </h1> </br></br>
+
+  <form class="settings" id = "settings">
+        <fieldset>
+                <legend>Select your favourite type of news to see:</legend>  <br>
+                <input type="checkbox" name="categories" value="UK">UK News<br>
+                <input type="checkbox" name="categories" value="Technology">Technology<br>
+                <input type="checkbox" name="categories" value="Business">Business<br>
+                <input type="checkbox" name="categories" value="Sports">Sports<br>
+                <input type="checkbox" name="categories" value="Entertainment">Entertainment<br>
+                <input type="checkbox" name="categories" value="Science">Science<br>
+                <input type="checkbox" name="categories" value="Health">Health<br>
+                <input type="checkbox" name="categories" value="worldwide">Worldwide<br>
+                <br>
+                <input type="submit" onclick="saved()" id="ip1" value="Save preferences" />
+        </fieldset>
+</form>
+
+
+</body>
+</html>
